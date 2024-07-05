@@ -148,7 +148,7 @@ Pendant la phase de validation, le processus est le suivant :
 
 ## 💻 Cas concret :
 
-Le réseau de neurones le plus populaire pour de la détection d'image est [Yolo](https://www.ultralytics.com/fr/yolo) de la société ultralytics. Il est capable de de résoudre des problèmes de classification, détection et de segmentation.
+Le réseau de neurones le plus populaire pour de la détection d'image est [Yolo](https://www.ultralytics.com/fr/yolo) de la société ultralytics. Il est capable de résoudre des problèmes de classification, détection et de segmentation.
 
 Dans ce repo, se trouve l'ensemble des programmes permettant d'utiliser et entraîner un modèle d'apprentissage capable de faire de la **détection d'objets**.
 
