@@ -5,7 +5,7 @@ import json
 
 app = Flask(__name__)
 
-model = YOLO("../modèles/climbing_shoes.pt") #choose de model you want to apply on your website
+model = YOLO("../modèles/yolov8m.pt") #choose de model you want to apply on your website
 
 @app.route("/")
 def home():

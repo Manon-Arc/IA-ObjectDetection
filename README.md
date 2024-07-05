@@ -208,7 +208,7 @@ pip install -r requirements.txt
 #### 2. Editez directement le/les fichiers souhaité(s)
 
 
-## 💻 Démarrer le site
+## 💻 Démarrer le site (basé sur le modèle pré-entraîné de Yolo)
 
 #### 1. Aller dans le dossier 'website'
 
