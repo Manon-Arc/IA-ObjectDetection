@@ -189,7 +189,7 @@ python3 -m venv venv
 
 ```bash
 #Sur Windows:
-venv\Scripts\activate
+.venv\Scripts\activate
 
 #Sur macOS and Linux:
 source venv/bin/activate
@@ -198,7 +198,7 @@ source venv/bin/activate
 5. Installer les paquets requis
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## 💻 Manipuler les modèles
