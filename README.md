@@ -108,7 +108,7 @@ L'entraînement du modèle de détection d'objets est essentiel afin de rendre c
 - Des annotations indiquant la classe de chaque objet et sa position dans l'image à l'aide de boîtes englobantes.
 - Des divisions en ensembles d'entraînement, de validation et de test.
 
-*De nombreux dataset sont disponibles en [ligne](https://universe.roboflow.com) mais il est également possible de créer son propre dataset à l'aide de différents outil comme celui de [roboflow](https://app.roboflow.com)* 
+*De nombreux dataset sont disponibles en [ligne](https://universe.roboflow.com) mais il est également possible de créer son propre dataset à l'aide de différents outils comme celui de [roboflow](https://app.roboflow.com)* 
 
 ### Phase d'Entraînement
 
