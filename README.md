@@ -14,7 +14,7 @@ IV. [Cas concret](#💻-cas-concret)
 ## 🎯 Badges
 
 [![Python logo](https://img.shields.io/badge/Language-Python-green
-)](https://www.php.net/)
+)](https://www.python.org)
 [![Yolo logo](https://img.shields.io/badge/NCC-Yolo-blue
 )](https://www.ultralytics.com/fr/yolo)
 [![Roboflow logo](https://img.shields.io/badge/Dataset-Roboflow-purple
