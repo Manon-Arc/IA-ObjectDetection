@@ -173,12 +173,12 @@ Dans ce repo, se trouve l'ensemble des programmes permettant d'utiliser et entra
 1. Cloner le repository
 
 ```bash
-git clone 
+git clone https://github.com/Manon-Arc/IA-ObjectDetection
 ```
 2. Aller dans le repository 
 
 ```bash
-cd projet_data
+cd IA-ObjectDetection
 ```
 3. Créer un environnement virtuel
 
