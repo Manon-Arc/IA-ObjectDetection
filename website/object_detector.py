@@ -9,7 +9,7 @@ model = YOLO("../modèles/yolov8m.pt") #choose de model you want to apply on you
 
 @app.route("/")
 def home():
-    return render_template('./index.html')
+    return render_template('index.html')
 
 @app.route("/detect", methods=["POST"])
 def detect():
@@ -29,12 +29,11 @@ def detect():
         )
 
 def detect_objects_on_image(image):
+
     results = model(image)
     result = results[0]
-    filtered_boxes = [box for box in result.boxes if box.conf[0].item() >= 0.5]
     output = []
-
-    for box in filtered_boxes.boxes:
+    for box in result.boxes:
         x1, y1, x2, y2 = [
             round(x) for x in box.xyxy[0].tolist()
         ]
